@@ -1,9 +1,8 @@
-# PC-coding.github.io
-Partap Singh Chauhan
-Github: PC-coding
+# Full Stack Developer
+Technical Projects
 
-#COVID-Spy
- * October 2020
+COVID-Spy
+October 2020
  * Full Stack application created using Python, Flask, and SQL for the backend & ReactJS, CSS, and Material UI for the frontend.
  * Constructed Flask backend with seeded data coming from the COVID-19 API.
  * Utilized JSON web tokens connecting ReactJS frontend with Flask backend to store encrypted user account information.
