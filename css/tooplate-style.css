@@ -60,17 +60,28 @@ p { line-height: 1.8; }
 .section-top {
     position: absolute;
     top: 8px;
-    left: 16px;
+    /* left: 250px; */
+    left: 18px;
 }
 .mb-75 {
     text-align: center;
 }
 h4{
     text-align: center;
+    align-items: center;
+}
+
+h5{
+    text-align: left;
+    align-items: left;
+    color: white;
 }
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: None;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
 }
 .my_face {
     display: flex;
