@@ -136,7 +136,8 @@ a {
     max-height: 140px;
 }
 
-.tm-media-img-ml-1 { margin-left: 80px; }
+.tm-media-img-ml-1 { margin-left: 80px;
+                    margin-top: 45px; }
 .tm-media-img-ml-2 { margin-left: 120px; }
 .tm-media-img-ml-3 { margin-left: 160px; }
 
