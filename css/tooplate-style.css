@@ -104,7 +104,8 @@ a {
 .tm-third-section {
     background: url(../img/slopa-top-right.png) left top no-repeat,
                       url(../img/slopa-bottom-line.png) right bottom no-repeat,
-                      url(../img/NYC-backdrop.jpg) center no-repeat;
+                      /* url(../img/NYC-backdrop.jpg) center no-repeat; */
+                      url(../img/QueensCollege.jpg) center no-repeat;
     background-size: auto, auto, cover;
     display: flex;
     align-items: center;
