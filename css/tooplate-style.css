@@ -85,10 +85,9 @@ a {
 }
 .my_face {
     display: flex;
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 35vh;
+    max-width: 35vh;
     border-radius: 50%;
-    margin-right: 10rem;
 }
 
 .tm-first-section {
@@ -423,7 +422,7 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-    .tm-site-header-box { padding: 30px; }
+    .tm-site-header-box { padding: 1vh; }
     .tm-third-section { padding: 60px 30px 100px; }
     .tm-media { flex-direction: column; }
     .tm-text-section { padding: 35px 30px 40px; }
