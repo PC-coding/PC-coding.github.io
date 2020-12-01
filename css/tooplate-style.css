@@ -24,9 +24,10 @@ body {
 p { line-height: 1.8; }
 
 .tm-site-header-box {
-    padding: 55px 125px 35px;
+    /* padding: 55px 125px 35px; */
+    padding: 55px 60px 35px;
     width: 100%;
-    max-width: 530px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -89,6 +90,7 @@ a {
     max-width: 35vh;
     border-radius: 50%;
     margin-right: 25vh;
+    margin-left: 7px;
 }
 
 .tm-first-section {
