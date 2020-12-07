@@ -12,7 +12,7 @@ Bazaar
 <a href='https://bazaar-596f2.web.app/'>Demo</a>
 </p>
 
-![Bazaar](https://media.giphy.com/media/17BF82waniz4ndE1UW/giphy.gif)
+![Bazaar](https://media.giphy.com/media/JzJufT92AmwN7fWbf9/giphy.gif)
 
 <p>
 COVID-Spy
