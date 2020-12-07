@@ -1,8 +1,15 @@
 # Portfolio
 <p>
-Full stack engineer pursuing junior developer roles.  
+Hello Everyone!
 
-Experienced in building web applications using Python, Flask, Firebase, SQL, React, JavaScript, HTML, and CSS. 
+This is my personal portfolio created to show my technical skills which I learned through Byte Academy's
+Python Full Stack Web Development program. As well as, to showcase my technical projects which I've been continously
+working on post bootcamp to improve and learn new skills. 
+Full stack engineer pursuing junior developer roles. I'm currently looking for a software developer role and I would be honored to show my experience and skills. 
+
+I'm experienced in building web applications using Python, Flask, Firebase, SQL, React, JavaScript, HTML, and CSS. 
+
+
 </p>
 
 # Technical Projects
