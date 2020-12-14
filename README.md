@@ -14,6 +14,11 @@ I'm experienced in building web applications using Python, Flask, Firebase, SQL,
 
 # Technical Projects
 <p>
+Algo-Seeker
+<a href='https://github.com/PC-coding/AlgoSeeker'>Code</a>
+</p>
+
+<p>
 Bazaar
 <a href='https://github.com/PC-coding/Bazaar'>Code</a>
 <a href='https://bazaar-596f2.web.app/'>Demo</a>
