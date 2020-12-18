@@ -1,284 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Partap's Portfolio</title>
+  <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
-  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
-  <link rel="stylesheet" href="css/tooplate-style.css">                                           <!-- Templatemo style -->
+  <!-- Favicons -->
+  <link href="img/PC.png" rel="icon">
+  <link href="img/PC.png" rel="apple-touch-icon">
 
-  <script>
-    var renderPage = true;
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    if (navigator.userAgent.indexOf('MSIE') !== -1
-      || navigator.appVersion.indexOf('Trident/') > 0) {
-      /* Microsoft Internet Explorer detected in. */
-      alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
-      renderPage = false;
-    }
-  </script>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
+<body id="page-top">
 
-  <!-- Loader -->
-  <div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-  </div>
 
-  <div class="tm-container">
-    <div class="tm-container-inner">
-      <section class="tm-first-section">
-        <div class="col-xs-12 tm-bg-black-alpha tm-text-white text-center tm-site-header-box">
-          <h1 class="mb-4">Partap Singh Chauhan</h1>
-          <p class="mb-0 tm-site-tagline">Full Stack Engineer</p>
-          <a href='resume.html'>View my Resume here!</a>
-        </div>
-        <img class='my_face' src="../img/Headshot_cropped.png" />
-      </section>
-      <section class="tm-text-section">
-        <div class="tm-timelines">
-          <h2 class="tm-text-green mb-5">Technical Projects</h2>
-          <div class="tm-timelines-inner">
-            <div class="tm-timeline-white-bar"></div>
-            <div class="tm-timeline-circle"></div>
-            <!-- <div class="tm-timeline mb-4 tm-first-timeline">
-              <div class="media tm-media">
-                <div class="tm-timeline-img-wrap mr-4">
-                  <img class="tm-media-img tm-media-img-ml-1" src="img/img-140-01.jpg" alt="Image 1">
-                </div>
-                <div class="media-body tm-media-body tm-media-body-ml-1">
-                  <h5 class="mt-0 tm-text-green">2 August 2018 (Wednesday)</h5>
-                  Sloopa HTML Page is provided by <a rel="nofollow" href="https://plus.google.com/+Tooplate" target="_blank">Tooplate</a>. You can use this layout for any purpose. Vivamus rhoncus erat ac eros consequat, eu efficitur lacus auctor. Duis quis metus quis diam. </div>
-              </div>
-            </div> -->
-            <div class="tm-timeline mb-4 tm-second-timeline">
-              <div class="media tm-media">
-                <div class="tm-timeline-img-wrap mr-4">
-                  <img class="tm-media-img tm-media-img-ml-2" src="img/ALGO-SEEKER.png" alt="Image 2">
-                </div>
-                <div class="media-body tm-media-body tm-media-body-ml-2">
-                  <h5 class="mt-0 tm-text-green">Algo-Seeker
-                    <a class='float-right' href='https://github.com/PC-coding/AlgoSeeker'>Code</a><br>
-                    <!-- <a class='float-right' href=''>Demo</a> -->
-                  </h5>
-                  <h6>PRESENT</h6>
-                  Web application engineered to visualize computer science algorithms like BFS, Bubble Sort, Quick Sort, Dijkstra's,
-                  A Star and Traveling Salesperson with Genetic Algorithm.
-                  <br />
-                  Technologies used: React.js, JavaScript, HTML and CSS.
-                </div>
-              </div>
-            </div>
-            <div class="tm-timeline mb-4 tm-first-timeline">
-              <div class="media tm-media">
-                <div class="tm-timeline-img-wrap mr-4">
-                  <img class="tm-media-img tm-media-img-ml-1" src="img/Bazaar.png" alt="Image 3">
-                </div>
-                <div class="media-body tm-media-body tm-media-body-ml-1">
-                  <h5 class="mt-0 tm-text-red">Bazaär
-                    <a class='float-right' href='https://github.com/PC-coding/Bazaar'>Code</a><br>
-                    <a class='float-right' href='https://bazaar-596f2.web.app/'>Demo</a>
-                  </h5>
-                  <h6>November 2020</h6>
-                  Amazon clone engineered with Google Firebase for the backend & React.js, JavaScript, CSS, and Material-UI for the frontend.
-                </div>
-              </div>
-            </div>
-            <div class="tm-timeline mb-4 tm-second-timeline">
-              <div class="media tm-media">
-                <div class="tm-timeline-img-wrap mr-4">
-                  <img class="tm-media-img tm-media-img-ml-2" src="img/Covid_spy_b_w.png" alt="Image 4">
-                </div>
-                <div class="media-body tm-media-body tm-media-body-ml-2">
-                  <h5 class="mt-0 tm-text-red">COVID-Spy (Byte Academy CAPSTONE)
-                    <a class='float-right' href='https://github.com/PC-coding/Covid-Spy'>Code</a><br>
-                    <!-- <a class='float-right' href='https://pc-coding.github.io/Covid-Spy'>Demo</a> -->
-                  </h5>
-                  <h6>October 2020</h6>
-                  Full Stack application engineered to provide accessible and trackable COVID-19 data in a more engaging and visualizing way.<space></space>
-                  Technologies used: Python, Flask, and SQL for the backend & React.js, JavaScript, CSS, and Material-UI for the frontend.
-                </div>
-              </div>
-            </div>
-            <div class="tm-timeline mb-4 tm-third-timeline">
-              <div class="media tm-media">
-                <div class="tm-timeline-img-wrap mr-4">
-                  <img class="tm-media-img tm-media-img-ml-3" src="img/Pokepedia_b_w.png" alt="Image 5">
-                </div>
-                <div class="media-body tm-media-body tm-media-body-ml-3">
-                  <h5 class="mt-0 tm-text-red">Poképedia
-                    <a class='float-right' href='https://github.com/PC-coding/Pokepedia'>Code</a><br>
-                    <a class='float-right' href='https://pc-coding.github.io/Pokepedia'>Demo</a>
-                  </h5>
-                  <h6>September 2020</h6>
-                  Web Application engineered to lookup Pokémon with data/stats for each individual pocket monster created using React.js and CSS.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="tm-third-section">
-        <div class="tm-bg-black-alpha tm-text-white tm-third-section-box">
-          <h2 class="tm-text-light-green mb-4">Education</h2>
-          <h4 class="mb-4 text-left"> Byte Academy</h4>
-          <p>June 2020 - October 2020</p>
-          <p>Software Engineering: Python Full Stack</p>
-          <h4 class="mb-4 text-left">CUNY Queens College</h4>
-          <p>August 2014 - May 2019</p>
-          <p>Bachelor of Arts: Economics and Sociology</p>
-        </div>
-      </section>
-      <section class="tm-text-section tm-text-section-pad-2">
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">PC-coding</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="resume.html">Resume</a>
+          </li>
+
+          <li class='nav-item'>
+            <a class="ion-social-github" href="https://www.github.com/PC-coding" style='font-size:30px;color:#0078ff'></a>
+          </li>
+          
+          <li class='nav-item'>
+            <a href="https://www.linkedin.com/in/partap-chauhan"><i class="ion-social-linkedin" style='font-size:30px; color:#0078ff'></i></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+    <div id="home" class="intro route bg-image" style="background-image: url(img/splendid1.gif)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
         <div class="container">
-          <div class="row mb-md-4 mb-sm-3">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-              <h1 class="mb-4 tm-text-black">Skills</h1>
-            </div>
-          </div>
-          <div class="row tm-space-even">
-            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-sm-4 mb-md-0 mb-4 tm-info-box width-25">
-              <i class="fas fa-4x fa-desktop p-5 w-100 tm-text-black text-center mb-sm-0 mb-md-4"></i>
-              <h4>Front-End</h4>
-              <p class="mb-75">
-                React
-              </p>
-              <p class="mb-75">
-                JavaScript
-              </p>
-              <p class="mb-75">
-                CSS
-              </p>
-              <p class="mb-75">
-                HTML
-              </p>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-sm-4 mb-md-0 mb-4 tm-info-box width-25">
-              <i class="fas fa-4x fa-database p-5 w-100 tm-text-black text-center mb-sm-0 mb-md-4"></i>
-              <h4>Back-End</h4>
-              <p class="mb-75">
-                Python
-              </p>
-              <p class="mb-75">
-                Flask
-              </p>
-              <p class="mb-75">
-                SQL
-              </p>
-              <p class="mb-75">
-                Google Firebase
-              </p>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-sm-4 mb-md-0 mb-4 tm-info-box width-25">
-              <i class="fas fa-4x fa-book p-5 w-100 tm-text-black text-center mb-sm-0 mb-md-4"></i>
-              <h4>Topics & Libraries</h4>
-              <p class="mb-75">
-                Computer Science
-              </p>
-              <p class="mb-75">
-                Algorithms
-              </p>
-              <p class="mb-75">
-                Data Structures
-              </p>
-              <p class="mb-75">
-                UX/UI
-              </p>
-              <p class="mb-75">
-                Material-UI
-              </p>
-              <p class="mb-75">
-                Charts.js
-              </p>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-sm-4 mb-md-0 mb-4 tm-info-box">
-              <i class="fas fa-4x fa-handshake p-5 w-100 tm-text-black text-center mb-sm-0 mb-md-4"></i>
-              <h4>Soft Skills</h4>
-              <p class="mb-75">
-                Critical Thinking
-              </p>
-              <p class="mb-75">
-                Customer Service
-              </p>
-              <p class="mb-75">
-                Paired Programming
-              </p>
-              <p class="mb-75">
-                Teamwork
-              </p>
-              <p class="mb-75">
-               Multilingual (English, Punjabi, Hindi)
-              </p>
-            </div>
-          </div>
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">Partap Singh Chauhan</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Web Developer,Web Designer,Full Stack Engineer</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
-      </section>
-      <section class="tm-fifth-section">
-        <div class="container">
-          <div class="row">
-            <h3 class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-right mb-5 tm-text-white">Connect With Me!</h3>
-          </div>
-          <div class="row mb-5">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-sm-4 mb-md-0 mb-4">
-              <form action="index.html" method="POST">
-                <div class="form-group">
-                  <h5>You can find me with my socials!</h5>
-                  <a class="fab fa-4x fa-github" href="https://github.com/PC-coding"></a>  
-                  <a class="fab fa-4x fa-linkedin" href="https://linkedin.com/in/partap-chauhan"></a>
-                </div>
-              </form>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-text-white tm-font-400">
-              <p class="mb-4"> I love learning new and challenging things, I feel the most satisfaction when I have
-                the opportunity to grow and develop myself. I want to use my BA in Economics and Sociology
-                collectively with my newfound skill of programming to continuously progress and create applications + features
-                that would be beneficial to the software industry. I'm looking for a junior software developer role and I would be honored
-                to showcase my experience and skills.    
-              </p>
-              <p>
-               Looking forward to connecting with you!  
-              <br>
-              <a class="fas fa-2x fa-envelope"></a> partapchauhan8@gmail.com
-              <br>
-              <a class='fa fa-2x fa-map-marker'></a> Queens, NY
-              </p>
-            </div>
-          </div>
-          <footer class="row tm-text-white">
-            <p class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-0 text-center tm-footer-text">
-              Copyright &copy;
-              <span class="tm-current-year">2020</span> Partap 
-            </p>
-          </footer>
-        </div>
-      </section>
+      </div>
     </div>
   </div>
+  <!--/ Intro Skew End /-->
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="ezclap">
+                      <img src="img/Headshot.jpg" class="img-fluid rounded b-shadow-a animation animated zoomIn" data-animation='zoomIn' alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0 animation animated fadeInRight" data-animation="fadeInRight">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Nice to meet you! 
+                    </h5>
+                  </div>
+                  <p class="new11">
+                    Hey!
+                    <br />
+                    I'm a CUNY Queens College graduate with a passion for programming. My first experience with a 
+                    computer was in elementary school where I learned about Microsoft Word, Powerpoint and the glorious Internet at
+                    7 years old. Our final project for our computer class in second grade was to make a customized blogsite. Ever 
+                    since that cool interactive experience of building and designing my first 'website', I wondered how this data 
+                    was changed and played with in the background to give us this cool user experience. 
+                  </p>
+                  <p class="new11">
+                    This brings us to post-college where I finally pursued my passion for computer software during the Coronavirus 
+                    Pandemic and attended the NYC immersive Python Full Stack Software Engineering program at Byte Academy. 
+                    Byte taught me computer science fundamentals in Python with emphasis on data structures and algorithms in the first
+                    phase of their program. After passing the Python assessment, I moved onto phase two of the program where I learned
+                    more about web development in JavaScript, React.js, HTML, CSS, SQL and Flask with emphasis on API integration, using
+                    databases and building full stack applications with React.js + Flask. 
+                  </p>
+                  <p class="new11">
+                    After graduating Byte Academy, I've been working on my own personal projects that I've been interested in creating
+                    since the start of the program. You can see the rest of my projects and connect with me on Github or LinkedIn! :)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- load JS -->
-  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
-  <script>
 
-    /* DOM is ready
-    ------------------------------------------------*/
-    $(function () {
 
-      if (renderPage) {
-        $('body').addClass('loaded');
-      }
 
-      $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
-    });
 
-  </script>
+
+
+
+
+
+   <!--/ Section Portfolio Star /-->
+   <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Technical Projects
+            </h3>
+            <p class="subtitle-a">
+              Byte Academy collabarative and my personal projects.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-md-3">
+          <div class="work-box">
+            <a href="img/Pokepedia_demo_gif.gif" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/Pokepedia_b_w.png" alt="" class="project_img">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2>Pokepedia</h2>
+                    <h2 class="w-title">September 2020</h2>
+                    <div class="w-more">
+                      <a href='https://github.com/PC-coding/Pokepedia'><strong><span class="w-ctegory">Code</span></strong></a> / <a href='https://PC-coding.github.io/Pokepedia'><strong><span class="w-date">Demo</span></strong></a>
+                      <p>Web application designed to be a Pokemon Encyclopedia using React.js and CSS.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+       
+        <div class="col-md-3">
+          <div class="work-box">
+            <a href="img/covidspydemo.gif" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/Covid_spy_b_w.png" alt="" class="project_img">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2>Covid-Spy (Capstone Project)</h2>
+                    <h2 class="w-title">October 2020</h2>
+                    <div class="w-more">
+                      <a href='https://github.com/PC-coding/Covid-Spy'><strong><span class="w-ctegory">Code</span></strong></a> / <a href=''><strong><span class="w-date">Demo</span></strong></a>
+                      <p>
+                        Full Stack application engineered to provide accessible and trackable 
+                        COVID-19 data in a more engaging and visualizing way. Technologies 
+                        used: Python, Flask, and SQL for the backend & React.js, JavaScript, 
+                        CSS, and Material-UI for the frontend.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="work-box">
+            <a href="img/Bazaar_Demo_Clone.gif" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/Bazaar1.png" alt="" class="project_img">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2>Bazaar</h2>
+                    <h2 class="w-title">November 2020</h2>
+                    <div class="w-more">
+                      <a href='https://github.com/PC-coding/Bazaar'><strong><span class="w-ctegory">Code</span></strong></a> / <a href='https://bazaar-596f2.web.app/'><strong><span class="w-date">Demo</span></strong></a>
+                      <p>Amazon clone engineered with Google Firebase for the backend & 
+                        React.js, JavaScript, CSS, and Material-UI for the frontend.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="work-box" >
+            <a href="img/algoseekergif.webp" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/ALGO-SEEKER.png" alt="" class="project_img">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2>Algo-Seeker</h2>
+                    <h2 class='w-title'>PRESENT</h2>
+                    <div class="w-more">
+                      <a href='https://github.com/PC-coding/AlgoSeeker'><strong><span class="w-ctegory">Code</span></strong></a> / <a href=''><strong><span class="w-date">Demo</span></strong></a>
+                      <p>Web application engineered to visualize computer science algorithms like BFS, Dijkstra's,
+                        Quick-Sort, Bubble-Sort, Genetic Algorithm and A Star.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/QueensCollege.jpg);">
+    <h1 class='title_education' style='text-align: center;'>Education</h1>
+    <br />
+    <div class="overlay-mf "></div>
+      <div class='education_d'>
+      <div class="row" style='justify-content: center;'>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box">
+            <div class="counter-ico">
+              <span class="ico-circle"><img src='./img/byte_academy_logo.webp' style='height: 110px;'></img></span>
+            </div>
+            <div class="counter-num">
+              <span class='education_title'><strong>Byte Academy</strong></span>
+              <p>June 2020 - October 2020 </p>
+              <span class="education_text"><strong>Software Engineering: Python Full Stack</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><img src='./img/qclogo.png' style='height: 80px'></img></span>
+            </div>
+            <div class="counter-num">
+              <span class='education_title'><strong>CUNY Queens College</strong></span>
+              <p>August 2014 - May 2019 </p>
+              <span class="education_text"><strong>Bachelor of Arts: Economics and Sociology </strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br />
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Skills
+            </h3>
+            <p class="subtitle-a">
+              Languages, Tools, Frameworks and Soft Skills
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <!-- <span class="ico-circle"><i class="ion-social-python"></i></span> -->
+              <span class="ico-circle"><img src='./img/pythonlogo.svg' style='height:70px; margin-bottom: 15px;'></img></span>
+
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Python</h2>
+            </div>
+          </div>
+        </div>
+       
+        
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="ion-social-javascript"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">JavaScript</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='/img/reactlogo.svg' style='display:flex'></img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">React.js</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/flasklogo.png' style='height: 35px;'></img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Flask</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/sql image.svg' style="display:flex"></img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">SQL</h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/firebaselogo.png' style='height: 25px; margin-bottom: 10px;'></img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Google Firebase</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/htmllogo.png' style='height:70px; margin-bottom: 15px;'></img></span>
+
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">HTML</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/csslogo.png' style='height:70px; margin-bottom: 15px;'></img></span>
+
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">CSS</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/gitlogo.svg' style='height: 50px;'></img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Git</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/vscodelogo.png' style='height: 70px; margin-bottom: 20px;'></img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">VS Code</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/dslogo.png' style='height: 50px; margin-bottom: 15px;'></img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Data Structures</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><img src='./img/algo_logo.png' style="height: 70px; margin-bottom: 20px"</img></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Algorithms</h2>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Design</h2>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ios-people"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Paired Programming</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/QC_quad.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send a Message 
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Connect With Me!
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      I love learning new and challenging things, I feel the most satisfaction when I have the opportunity to 
+                      grow and develop myself. I want to use my BA in Economics and Sociology collectively with my newfound 
+                      skill of programming to continuously progress and create applications + features that would be beneficial 
+                      to the software industry. I'm looking for junior software developer roles and I would be honored to 
+                      showcase my skills and learn + grow through collabarative works with new teams.
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> New York, NY</li>
+                      <li><span class="ion-email"></span> partapchauhan8@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.github.com/PC-coding"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                      <li><a href="https://www.linkedin.com/in/partap-chauhan"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/psc_coding"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-email"></i></span></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy;<strong> Partap</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
