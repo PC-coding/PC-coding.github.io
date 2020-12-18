@@ -18,6 +18,8 @@ Algo-Seeker
 <a href='https://github.com/PC-coding/AlgoSeeker'>Code</a>
 </p>
 
+![Algo-Seeker](https://media.giphy.com/media/YekW1tdl8rok1OSAIE/giphy.gif)
+
 <p>
 Bazaar
 <a href='https://github.com/PC-coding/Bazaar'>Code</a>
