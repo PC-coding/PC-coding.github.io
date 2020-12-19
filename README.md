@@ -5,11 +5,11 @@ Hello Everyone!
 This is my personal portfolio created to show my technical skills which I learned through Byte Academy's
 Python Full Stack Web Development program. As well as, to showcase my technical projects which I've been continuously
 working on post bootcamp to improve and learn new skills. 
-Full stack engineer pursuing junior developer roles. I'm currently looking for a software developer role and I would be honored to show my experience and skills. 
+I'm currently looking for software developer roles and I would be honored to showcase my skills and learn + grow through collabarative works with new teams.
 
 I'm experienced in building web applications using Python, Flask, Firebase, SQL, React, JavaScript, HTML, and CSS. 
 
-
+<a href='https://PC-coding.github.io'>Visit Here!</a>
 </p>
 
 # Technical Projects
