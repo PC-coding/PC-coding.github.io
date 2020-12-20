@@ -718,6 +718,31 @@ a:hover {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+#skills-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#skills-section li {
+  float: left;
+  list-style-type: none;
+  margin: 1em 2em;
+  text-align: center;
+}
+#skills-section span {
+  font-family: 'roboto', 'Helvetica';
+  font-weight: bold;
+  display: block;
+}
+#skills-section img {
+  height: 70px;
+}
+#skills-section * {
+  padding: 0;
+}
+
 .skill-mf span {
   color: #4e4e4e;
 }
