@@ -894,6 +894,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   padding: 65px 0 75px;
+  margin-top: -50px;
 }
 
 .tm-text-section-pad-2 { padding: 65px 65px 75px; }
