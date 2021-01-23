@@ -837,9 +837,9 @@ a:hover {
     max-height: 140px;
 }
 
-.tm-media-img-ml-1 { margin-left: 80px; }
-.tm-media-img-ml-2 { margin-left: 120px; }
-.tm-media-img-ml-3 { margin-left: 160px; }
+.tm-media-img-ml-1 { margin-left: 20px; }
+.tm-media-img-ml-2 { margin-left: 20px; }
+.tm-media-img-ml-3 { margin-left: 20px; }
 .tm-timeline-img-wrap { background: url(../img/connector.png) center repeat-x; height:5px; -webkit-tap-highlight-color: transparent;}
 
 .tm-media-img .tm-media-img-ml-1  {
@@ -856,7 +856,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
   .tm-text-section { padding: 65px 40px 75px; }
   .tm-text-section-pad-2 { padding: 40px 20px 55px; }
   .tm-media-img-ml-1 { margin-left: 40px; }
@@ -872,7 +872,7 @@ a:hover {
   .tm-media-body { margin-top: 20px; }
   .tm-media-body-ml-1 { margin-left: 30px; }
   .tm-media-body-ml-2 { margin-left: 45px; }
-  .tm-media-body-ml-3 { margin-left: 60px; }
+  .tm-media-body-ml-3 { margin-left: 60px; } */
 }
 .mr-4, .mx-4 {
   margin-right: 1.5rem!important;
@@ -893,8 +893,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 65px 0 75px;
-  margin-top: -50px;
+  padding: 15px 0 75px;
 }
 
 .tm-text-section-pad-2 { padding: 65px 65px 75px; }
@@ -971,6 +970,13 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+}
+
+.row11 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /*======================================
