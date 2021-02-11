@@ -811,7 +811,7 @@ a:hover {
   height: 100px;
   width: 100px;
   line-height: 1.8;
-  box-shadow: 0 0 0 4px black;
+  box-shadow: 0 0 0 4px #0078ff;
 }
 
 .counter-num .counter {
