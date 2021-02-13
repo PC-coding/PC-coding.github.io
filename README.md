@@ -24,6 +24,7 @@ Picture Messaging
 <p>
 Algo-Seeker
 <a href='https://github.com/PC-coding/AlgoSeeker'>Code</a>
+<a href='https://PC-coding.github.io/AlgoSeeker'>Demo</a>
 </p>
 
 ![Algo-Seeker](https://media.giphy.com/media/YekW1tdl8rok1OSAIE/giphy.gif)
