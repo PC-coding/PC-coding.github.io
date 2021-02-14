@@ -15,8 +15,8 @@ I'm experienced in building web applications using Python, Flask, Firebase, SQL,
 # Technical Projects
 <p>
 Picture Messaging
-<a href=''>Code </a>
-<a href=''>Demo </a>
+<a href='https://github.com/PC-coding/Picturemessenger'>Code </a>
+<a href='https://picture-messaging.web.app'>Demo </a>
 </p>
 
 ![PictureMessenger](https://media.giphy.com/media/r91WimJjTN6bauA9Bi/giphy.gif)
