@@ -375,7 +375,7 @@
                       Send a Message 
                     </h5>
                   </div>
-                  <div>
+                  <div id='registeration'>
                     <form action="https://formspree.io/f/mpzoerpg"" method="post" role="form" class="contactForm">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage">Your message didn't send.</div>
@@ -405,7 +405,16 @@
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send</button>
+                          <button type="submit" class="button button-a button-big button-rouded" onclick="submitform()">Send</button>
+                          <script> 
+                              function submitForm() { 
+                                // Get the first form with the name 
+                                let frm = document.getElementsByName('registeration')[0]; 
+                                frm.submit(); // Submit 
+                                frm.reset();  // Reset 
+                                return false; // Prevent page refresh 
+                              } 
+                          </script> 
                         </div>
                       </div>
                     </form>
