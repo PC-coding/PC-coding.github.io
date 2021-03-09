@@ -241,6 +241,10 @@ a:hover {
   font-size: 40px;
 }
 
+.list-ico li{
+  font-weight: bold;
+}
+
 /*------/ Ico Circle /------*/
 
 .ico-circle {
