@@ -828,8 +828,8 @@ a:hover {
 .tm-media { align-items: stretch; }
 
 .tm-media-img {
-    max-width: 140px;
-    max-height: 140px;
+    max-width: 120px;
+    max-height: 120px;
 }
 
 .tm-media-img-ml-1 { margin-left: 20px; }
